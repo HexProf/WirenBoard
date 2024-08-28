@@ -3,7 +3,7 @@
   "title": "DVT05_title",
   "group": "g-climate-sensor",
   "device": {
-    "name": "DVT-05.RS.3",
+    "name": "DVT-05-RS-3",
     "id": "dvt-05-rs-3",
 
     "channels": [
@@ -48,10 +48,13 @@
     "translations": {
       "en": {
         "device_type_title": "DVT-05.RS.3",
+        "DVT_name": "DVT-05.RS.3",
         "DVT05_title": "RELSIB DVT-05 Climate Sensor"
       },
       "ru": {
         "device_type_title": "ДВТ-05.RS.3",
+        "DVT_name": "ДВТ-05.RS.3",
+        "DVT-05-RS-3": "ДВТ-05.RS.3",
         "DVT05_title": "РЭЛСИБ ДВТ-05 Датчик температуры и влажности",
         "Temperature": "Температура",
         "Humidity": "Влажность"
