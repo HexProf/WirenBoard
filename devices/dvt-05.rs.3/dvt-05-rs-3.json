@@ -1,8 +1,9 @@
 {
   "device_type": "DVT-05.RS.3",
+  "title": "RELSIB DVT-05 Climate Sensor",
   "group": "g-climate-sensor",
   "device": {
-    "name": "dvt-05-rs-3",
+    "name": "DVT-05.RS.3",
     "id": "dvt-05-rs-3",
 
     "channels": [
@@ -17,13 +18,12 @@
         "readonly": true
       },
       {
-        "name": "Relative humidity",
-        "units": "%, RH",
+        "name": "Humidity",
         "scale": 0.1,
         "reg_type": "holding",
         "format": "u16",
         "address": 1,
-        "type": "value",
+        "type": "rel_humidity",
         "readonly": true
       },
       {
@@ -32,7 +32,8 @@
         "address": 6,
         "format": "u16",
         "type": "value",
-        "readonly": true
+        "readonly": true,
+        "enabled": false
       },
       {
         "name": "SW Version",
@@ -40,8 +41,17 @@
         "address": 7,
         "format": "u16",
         "type": "value",
-        "readonly": true
+        "readonly": true,
+        "enabled": false
       }
-    ]
+    ],
+    "translations": {
+      "ru": {
+        "DVT-05.RS.3": "ДВТ-05.RS.3",
+        "RELSIB DVT-05 Climate Sensor": "РЭЛСИБ ДВТ-05 датчик температуры и влажности",
+        "Temperature": "Температура",
+        "Humidity": "Влажность"
+      }
+    }
   }
 }
